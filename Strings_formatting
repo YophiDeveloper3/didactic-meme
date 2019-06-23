@@ -4,6 +4,9 @@ print(greeting_string)
 string_with_quotes = "Hello, it's me."
 another_with_quotes = 'Larry said "You are truly growing!" today.'
 
+# when using line 4 and there are doube quotes on the outside, there cannot be a double quote on the inside, because python will
+# not be able to tell what is a string
+
 name = 'Larry'
 greeting = 'Hello, ' + name
 print(greeting)
