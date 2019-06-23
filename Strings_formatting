@@ -1,0 +1,28 @@
+greeting_string = "Hello, Developer!"
+print(greeting_string)
+
+string_with_quotes = "Hello, it's me."
+another_with_quotes = 'Larry said "You are truly growing!" today.'
+
+name = 'Larry'
+greeting = 'Hello, ' + name
+print(greeting)
+
+# line above is concatenating strings
+
+another_greeting = f'Hello, {name}'
+print(another_greeting)
+
+# line 13-14 is how you would format a string using the f' string
+
+final_greeting = ' How are you, {}'
+formatted_greeting = final_greeting.format(name)
+print (formatted_greeting)
+
+escaped_quotes = "He said \"You are amazing!\"yesterday."
+# line not a great format , it seems to be a bit messy 
+
+# line 14-16 only use in Python 3.5 and Below
+# line 11-12 is a f' string and is reccommended to use in 3.6 and higher
+
+# this concludes my studies on Strings and String formatting
